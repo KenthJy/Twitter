@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twitter Clone</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" type="module" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<!-- Google Fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="container-header">
+        <h1>For you</h1>
+    </div>
+    <div class="container-header">
+        <h1>Following</h1>
+    </div>
+        </nav>
+    </header>
+    <main>  
+        <div class="container-of-inputs">
+            <div class="tweet-input-area">
+                <img src="images/profile-pic.jpg" class="profile-pic">
+                <textarea placeholder="What is happening?!" id="tweet-input"></textarea>
+        </div>
+
+        <div class="container-of-left-right">
+            <div class="left-col">
+                <i class="fa-regular fa-image"></i>
+                <i class="fa-solid fa-bars"></i>
+                <i class="fa-solid fa-face-smile"></i>
+                <i class="fa-regular fa-calendar-days"></i>
+                <i class="fa-solid fa-location-pin"></i>
+            </div>
+
+            <div class="right-col">
+                <i class="fa-solid fa-plus"></i>
+                <button class="post" id="post">Post</button>
+            </div>
+        </div>
+    </div>
+    <div class="feed" id="feed">
+        
+    </div>
+
+    </main>
+</body>
+</html>
