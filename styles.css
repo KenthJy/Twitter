@@ -2,17 +2,24 @@ html, body {
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
-   
+
     background-color: rgb(27, 26, 26);
     color: white;
 }
-
+.hidden {
+    display: none;
+}
 main, header{
     width: 500px;
     margin: 0 auto;
-    border: 1px solid rgb(100, 96, 96);
+    border-bottom: 1px solid rgb(100, 96, 96);
+    border-right: 1px solid rgb(100, 96, 96);
+    border-left: 1px solid rgb(100, 96, 96);
 }
-
+.tweet-gif{
+    width: 5rem;
+    border-radius: 10px;
+}
 main {
     height: 100vh;
     border: 1px solid rgb(100, 96, 96);
@@ -25,23 +32,62 @@ nav{
     align-items: center;
     justify-content: center;
     box-shadow: 0px 3px 10px #00000040;
-    
 }
 .container-header{
     width: 100%;
     text-align: center;
-
+    box-shadow: 0px 0px 1px #00000040;
+}
+.container-header h1:hover{
+    color:white
 }
 
+
+.like:hover{
+    color: rgb(234, 139, 139);
+}
+
+.fa-solid, .fa-regular{
+    padding: .2rem .2rem .2rem .2rem;
+    cursor: pointer;
+}   
+
+
+.fa-heart:hover{
+    background-color: rgba(255, 0, 0, 0.56);
+    border-radius: 50%;
+    box-shadow: 0px 0px 100px red;
+}
+
+.fa-retweet:hover{
+    background-color: rgba(129, 243, 135, 0.56);
+    border-radius: 50%;
+    box-shadow: 0px 0px 100px red;
+}
+.reply:hover{
+    color: gray;
+}
+.liked {
+    color: red;
+}
+.retweet:hover{
+    color: rgb(83, 231, 83);
+}
+.retweeted{
+    color: rgb(83, 231, 83);
+}
 
 h1{
     padding: 1rem;
     margin: 0;
+    font-size: .9rem;
+    color: gray;
+    font-weight: 700;
 }
 
 
 h1:hover{
-    background-color: gray;
+    background-color: rgba(150, 147, 147, 0.105);
     cursor: pointer;
 }
 textarea{
@@ -129,14 +175,20 @@ textarea:focus{
     font-size: 13px;
     justify-content: space-between;
     width: 160px;
+    gap: 5rem;
+    margin-top: .5rem;
 }
 
 .tweet-detail{
     display: flex;
     gap: 4px;
-    margin-top: .5rem;
+    align-items: center;
+    
 }
-
+.widthhh{
+    width: 100%;
+    padding: 0 1rem 0 0;
+}
 .tweet-reply{
     border-top: 1px solid lightgray;
     padding: 20px 0 0 0px;
@@ -145,11 +197,11 @@ textarea:focus{
 }
 
 .handle{
-    font-size: 13px;
-    font-weight: 700;
-    color: #555;
+    font-size: 14px;
+    font-weight: 500;
+    color: #ffffff;
     margin-top: 0;
-    margin-bottom: 0.1rem;
+    margin-bottom: 0.2rem;
 }
 
 .tweet-text{

@@ -7,20 +7,19 @@ export const tweetsData = [
         tweetText: `hey guys I am new to the X / Twitter thing, but I just started using it just to follow Newjeans stuff.`,
         tweetImage: 'images/post1.jpg',
         replies: [{
-            handle: `@TomCruise ✅`,
+            handle: `@randomkid1`,
             profilePic: `images/haerin1.jpeg`,
+            tweetText: `Check this gif out XD`,
             tweetGif: `images/hannii.gif`,
         },{
-            handle: `@ChuckNorris ✅`,
+            handle: `@randomkid2 ✅`,
             profilePic: `images/haerin2.jpeg`,
-            tweetText: `Hey I went there last year😴`,
+            tweetText: `Hey I went to their concert last year `,
         },{
-            handle: `@ChuckNorris ✅`,
-            profilePic: `images/haerin2.jpeg`,
-            tweetText: `👀🥳`,
-        },{
-
-        }],
+            handle: `@randomkid3 ✅`,
+            profilePic: `images/haerin1.jpeg`,
+            tweetText: `hey @randomkid1 our profile pic looks the same LOLOLOLOL`,
+        },],
         isLiked: false,
         isRetweeted: false,
         uuid: '4b161eee-c0f5-4545-9c4b-8562944223e1',
@@ -37,14 +36,14 @@ export const tweetsData = [
         tweetImageLink : 'https://www.youtube.com/watch?v=11cta61wi0g',
         replies: [
                   {
-                handle: `@TomCruise ✅`,
+                handle: `@randomkid4`,
                 profilePic: `images/haerin1.jpeg`,
-                tweetText: `Yes! Sign me up! 😎🛩`,
+                tweetText: `OMGG!!!`,
             },
                   {
-                handle: `@ChuckNorris ✅`,
+                handle: `@randomkid5✅`,
                 profilePic: `images/haerin2.jpeg`,
-                tweetText: `I went last year😴`,
+                tweetText: `Just saw this mv, it was fire 🔥🔥🔥🔥`,
             },
         ],
         isLiked: false,
@@ -62,12 +61,13 @@ export const tweetsData = [
             {
                 handle: `@lovhrin 💞`,
                 profilePic: `images/hanni2.jpg`,
-                tweetText: `No. Obviosuly not. Go get a job in McDonald's.`,
+                tweetText: `Brah, what's with this generations humor.`,
+                tweetGif : `images/deadreaction.gif`
             },
             {
                 handle: `@dollhae`,
                 profilePic: `images/hyein.jpg`,
-                tweetText: `You are wonderful just as you are! ❤️`,
+                tweetText: `XDDDDDDDD ☠️☠️`,
             },
         ],
         isLiked: false,
@@ -77,21 +77,21 @@ export const tweetsData = [
     {
         handle: `@nwjshae`,
         profilePic: `images/elonmusk.jpg`,
-        likes: 0,
+        likes: 1213,
         retweets: 3,
         tweetText: `A look back at Elon Musk's first year owning Twitter, in tweets | CNN Business`,
         tweetImage: 'images/elonmuskpost.jpg', 
         tweetImageLink :'//edition.cnn.com/2023/10/28/tech/elon-musk-year-owning-twitter-in-tweets/index.html',
         replies: [
             {
-                handle: `@StackOverflower ☣️`,
-                profilePic: `images/overflow.png`,
-                tweetText: `No. Obviosuly not. Go get a job in McDonald's.`,
+                handle: `@elomuskjejeje`,
+                profilePic: `images/elonmusk2.jpeg`,
+                tweetText: `I like Mark Soccerberg.`,
             },
             {
-                handle: `@haeooki `,
-                profilePic: `images/love.png`,
-                tweetText: `You are wonderful just as you are! ❤️`,
+                handle: `@haeooki`,
+                profilePic: `images/elonmusk3.jpeg`,
+                tweetText: `Hey guys want to join my site? Click the link below 👇`,
             },
         ],
         isLiked: false,
@@ -106,14 +106,16 @@ export const tweetsData = [
         tweetVideo: 'images/video2.mp4', 
         replies: [
             {
-                handle: `@StackOverflower ☣️`,
-                profilePic: `images/overflow.png`,
-                tweetText: `No. Obviosuly not. Go get a job in McDonald's.`,
+                handle: `@minecraftkid`,
+                profilePic: `images/minecraft.jpeg`,
+                tweetText: `I really love this videos, make my brain go rot more.`,
+                
             },
             {
-                handle: `@YummyCoder64`,
-                profilePic: `images/love.png`,
-                tweetText: `You are wonderful just as you are! ❤️`,
+                handle: `@Ilovetomato`,
+                profilePic: `images/minecraft1.jpeg`,
+                tweetText: `Woah, time to try this in real geym. Skibidi pap yes yes`,
+                tweetGif: `images/brainrot.gif`,
             },
         ],
         isLiked: false,
@@ -123,23 +125,12 @@ export const tweetsData = [
     {
         handle: `notkennut`,
         profilePic: `images/mypic.jpg`,
-        likes: 3,
-        retweets: 3,
+        likes: 0,
+        retweets: 0,
         tweetText: `If you reached this area why don't you follow my gihub :). Also check my last week project 👀👇`,
         tweetImage: 'images/screenshot.png', 
         tweetImageLink : 'https://github.com/KenthJy/ACER-PH_ClONE',
-        replies: [
-            {
-                handle: `@faerinhae ☣️`,
-                profilePic: `images/overflow.png`,
-                tweetText: `No. Obviosuly not. Go get a job in McDonald's.`,
-            },
-            {
-                handle: `@ kittishy`,
-                profilePic: `images/love.png`,
-                tweetText: `You are wonderful just as you are! ❤️`,
-            },
-        ],
+        replies: [],
         isLiked: false,
         isRetweeted: false,
         uuid: '8hy671sff-c0f5-4545-9c4b-1237gyys42',
